@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+/* definisi warna default (light mode) */
+@theme {
+  --color-background: #ffffff;
+  --color-primary-500: #3b82f6;
+}
+
+/* override untuk dark mode */
+.dark {
+  --color-background: #0f172a;
+  --color-primary-500: #22c55e;
+}
